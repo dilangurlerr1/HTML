@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sağlıklı ve Kaliteli Yaşam</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="AnaSayfa.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#"
+          ><i class="bi bi-heart-pulse me-2"></i>Sağlıklı Yaşam</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          style="border-color: var(--dark-green)"
+        >
+          <span
+            class="navbar-toggler-icon"
+            style="
+              background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%2821, 87, 36, 0.75%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e');
+            "
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#anasayfa">Ana Sayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#beslenme">Beslenme</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#egzersiz">Egzersiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mental">Mental Sağlık</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#quiz">Quiz</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="anasayfa" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-6">
+            <h1 class="display-4 fw-bold gradient-title mb-4">
+              Sağlıklı ve Kaliteli Yaşam
+            </h1>
+            <p class="lead mb-4">
+              Sağlıklı beslenme, düzenli egzersiz ve zihinsel sağlık ile
+              hayatınızı daha kaliteli hale getirin. Uzun ve mutlu bir yaşam
+              için doğru adımları atmaya bugün başlayın!
+            </p>
+            <a href="#beslenme" class="btn btn-primary btn-lg me-3">Başlayın</a>
+            <a href="#quiz" class="btn btn-outline-success btn-lg"
+              >Quiz'e Katılın</a
+            >
+          </div>
+
+          <!-- ✅ İKON YERİNE HERO FOTO -->
+          <div class="col-lg-6 text-center">
+            <img
+            src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=900&q=80"
+            alt="Meyve ve sebze"
+            class="img-fluid rounded-3 mb-3"
+            style="height: 160px; width: 100%; object-fit: cover"
+            loading="lazy"
+          />
+          
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beslenme Bölümü -->
+    <section id="beslenme" class="py-5">
+      <div class="container">
+        <h2 class="text-center section-header mb-5">Sağlıklı Beslenme</h2>
+
+        <!-- Ana Bilgiler -->
+        <div class="row g-4 mb-5">
+          <div class="col-md-4">
+            <div class="card feature-card">
+              <div class="card-body text-center">
+                <!-- ✅ İKON YERİNE FOTO -->
+                <img
+                src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=900&q=80"
+                alt="Meyve ve sebze"
+                class="img-fluid rounded-3 mb-3"
+                style="height: 160px; width: 100%; object-fit: cover"
+                loading="lazy"
+              />
+              
+                <h5 class="card-title text-success">Meyve ve Sebze</h5>
+                <p class="card-text">
+                  Günde en az 5 porsiyon meyve ve sebze tüketin. Vitamin ve
+                  mineral deposu olan bu besinler bağışıklık sisteminizi
+                  güçlendirir ve kronik hastalık riskini azaltır.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card feature-card">
+              <div class="card-body text-center">
+                <!-- ✅ İKON YERİNE FOTO -->
+                <img
+                src="https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=900&q=80"
+                alt="Su tüketimi"
+                class="img-fluid rounded-3 mb-3"
+                style="height: 160px; width: 100%; object-fit: cover"
+                loading="lazy"
+              />
+              
+                <h5 class="card-title text-success">Su Tüketimi</h5>
+                <p class="card-text">
+                  Günde en az 2-2.5 litre su için. Vücudunuzun %70'i sudan
+                  oluşur ve düzenli su tüketimi metabolizmanızı hızlandırır,
+                  cildinizi güzelleştirir.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card feature-card">
+              <div class="card-body text-center">
+                <!-- ✅ İKON YERİNE FOTO -->
+                <img
+                src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=80"
+                alt="Protein"
+                class="img-fluid rounded-3 mb-3"
+                style="height: 160px; width: 100%; object-fit: cover"
+                loading="lazy"
+              />
+              
+                <h5 class="card-title text-success">Protein</h5>
+                <p class="card-text">
+                  Kaliteli protein kaynakları tercih edin. Balık, tavuk,
+                  yumurta, bakliyat ve kuruyemişler kas gelişiminizi destekler
+                  ve tokluk hissi sağlar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Detaylı Beslenme Rehberi -->
+        <div class="info-box">
+          <h4 class="text-success mb-3">
+            <i class="bi bi-clipboard-check me-2"></i>Günlük Beslenme Rehberi
+          </h4>
+          <div class="row">
+            <div class="col-md-6">
+              <h6 class="text-success">Kahvaltı (07:00-09:00)</h6>
+              <ul class="mb-3">
+                <li>Tam tahıllı ekmek + peynir</li>
+                <li>Taze meyve (muz, elma)</li>
+                <li>1 bardak süt veya yoğurt</li>
+                <li>Çay veya kahve (şekersiz)</li>
+              </ul>
+
+              <h6 class="text-success">Öğle (12:00-14:00)</h6>
+              <ul>
+                <li>Izgara et/tavuk/balık</li>
+                <li>Pilav veya bulgur</li>
+                <li>Bol yeşillik salata</li>
+                <li>Ayran veya su</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h6 class="text-success">Ara Öğün (15:30-16:30)</h6>
+              <ul class="mb-3">
+                <li>1 avuç kuruyemiş</li>
+                <li>Taze meyve</li>
+                <li>Yeşil çay</li>
+              </ul>
+
+              <h6 class="text-success">Akşam (19:00-20:00)</h6>
+              <ul>
+                <li>Sebze yemeği</li>
+                <li>Yoğurt veya çorba</li>
+                <li>Salata</li>
+                <li>Su veya bitki çayı</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-8 mx-auto">
+            <div class="alert alert-success" role="alert">
+              <h4 class="alert-heading">
+                <i class="bi bi-lightbulb me-2"></i>Beslenme İpuçları
+              </h4>
+              <hr />
+              <ul class="mb-0">
+                <li>
+                  Öğünlerinizi atlamamaya özen gösterin - metabolizmanızı
+                  dengede tutar
+                </li>
+                <li>
+                  İşlenmiş gıdalardan kaçının, doğal besinleri tercih edin
+                </li>
+                <li>
+                  Yavaş yemek yiyin ve iyice çiğneyin - sindiriminizi
+                  kolaylaştırır
+                </li>
+                <li>
+                  Şeker ve tuz tüketiminizi sınırlayın - kalp sağlığınızı korur
+                </li>
+                <li>
+                  Renkli tabaklar hazırlayın - farklı vitaminler alırsınız
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Egzersiz Bölümü -->
+    <section id="egzersiz" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center section-header mb-5">Düzenli Egzersiz</h2>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="card feature-card h-100">
+              <div class="card-body">
+                <h5 class="card-title text-success">
+                  <i class="bi bi-person-walking me-2"></i>Kardiyovasküler
+                  Egzersizler
+                </h5>
+                <p class="card-text">
+                  Haftada en az 150 dakika orta şiddetli kardiyovasküler
+                  egzersiz yapın.
+                </p>
+                <ul>
+                  <li>Hızlı yürüyüş (30 dk/gün)</li>
+                  <li>Koşu veya bisiklet</li>
+                  <li>Yüzme</li>
+                  <li>Dans</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card feature-card h-100">
+              <div class="card-body">
+                <h5 class="card-title text-success">
+                  <i class="bi bi-lightning me-2"></i>Kuvvet Antrenmanları
+                </h5>
+                <p class="card-text">
+                  Haftada 2-3 gün kas kuvvetlendirici egzersizler yapın.
+                </p>
+                <ul>
+                  <li>Ağırlık kaldırma</li>
+                  <li>Şınav, mekik</li>
+                  <li>Direnç bantları</li>
+                  <li>Vücut ağırlığı egzersizleri</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="text-center">
+              <i class="bi bi-clock text-success mb-2" style="font-size: 2rem"></i>
+              <h6 class="text-success">Düzenlilik</h6>
+              <p class="small">Her gün aynı saatte egzersiz yapın</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <i class="bi bi-graph-up-arrow text-success mb-2" style="font-size: 2rem"></i>
+              <h6 class="text-success">Aşamalılık</h6>
+              <p class="small">Yavaş yavaş şiddetini artırın</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <i class="bi bi-emoji-smile text-success mb-2" style="font-size: 2rem"></i>
+              <h6 class="text-success">Keyif</h6>
+              <p class="small">Sevdiğiniz aktiviteleri seçin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mental Sağlık Bölümü -->
+    <section id="mental" class="py-5">
+      <div class="container">
+        <h2 class="text-center section-header mb-5">Mental Sağlık</h2>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="card feature-card h-100">
+              <div class="card-body text-center">
+                <!-- ✅ İKON YERİNE FOTO -->
+                <img
+                src="https://images.unsplash.com/photo-1541194577687-8c63bf9e7ee3?auto=format&fit=crop&w=900&q=80"
+                alt="Uyku"
+                class="img-fluid rounded-3 mb-3"
+                style="height: 160px; width: 100%; object-fit: cover"
+                loading="lazy"
+              />
+              
+                <h5 class="card-title text-success">Kaliteli Uyku</h5>
+                <p class="card-text">
+                  Günde 7-8 saat kaliteli uyku, zihinsel ve fiziksel sağlığınız
+                  için vazgeçilmezdir. Düzenli uyku saatlerine dikkat edin.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card feature-card h-100">
+              <div class="card-body text-center">
+                <!-- ✅ İKON YERİNE FOTO -->
+                <img
+  src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=80"
+  alt="Meditasyon"
+  class="img-fluid rounded-3 mb-3"
+  style="height: 160px; width: 100%; object-fit: cover"
+  loading="lazy"
+/>
+
+                <h5 class="card-title text-success">Meditasyon</h5>
+                <p class="card-text">
+                  Günlük 10-15 dakikalık meditasyon, stresi azaltır, odaklanma
+                  yetinizi artırır ve inner peace bulmanızı sağlar.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card feature-card h-100">
+              <div class="card-body text-center">
+                <!-- ✅ İKON YERİNE FOTO -->
+                <img
+                src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80"
+                alt="Sosyal bağlantılar"
+                class="img-fluid rounded-3 mb-3"
+                style="height: 160px; width: 100%; object-fit: cover"
+                loading="lazy"
+              />
+              
+                <h5 class="card-title text-success">Sosyal Bağlantılar</h5>
+                <p class="card-text">
+                  Aile ve arkadaşlarınızla kaliteli zaman geçirin. Güçlü sosyal
+                  bağlar mental sağlığınızı destekler.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-lg-10 mx-auto">
+            <div class="card border-success">
+              <div class="card-header bg-success text-white">
+                <h5 class="mb-0">
+                  <i class="bi bi-heart me-2"></i>Stres Yönetimi Teknikleri
+                </h5>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul>
+                      <li><strong>Nefes egzersizleri:</strong> Derin nefes alıp verme</li>
+                      <li><strong>Yoga:</strong> Vücut ve zihin esnekliği</li>
+                      <li><strong>Hobi edinme:</strong> Keyif aldığınız aktiviteler</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul>
+                      <li><strong>Doğa yürüyüşü:</strong> Temiz hava ve doğa</li>
+                      <li><strong>Müzik dinleme:</strong> Ruh halinizi iyileştiren müzikler</li>
+                      <li><strong>Okuma:</strong> Zihinsel stimülasyon</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiz Bölümü -->
+    <section id="quiz" class="py-5 quiz-section">
+      <div class="container">
+        <h2 class="text-center section-header mb-5">
+          Sağlık Bilginizi Test Edin!
+        </h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="card shadow-lg">
+              <div class="card-header bg-success text-white text-center">
+                <h4 class="mb-0">
+                  <i class="bi bi-question-circle me-2"></i>Sağlık Quiz'i
+                </h4>
+                <p class="mb-0 mt-2">6 soruluk hızlı sağlık testi!</p>
+              </div>
+              <div class="card-body p-4">
+                <div id="quiz-area">
+                  <div class="text-center">
+                    <i class="bi bi-play-circle text-success mb-3" style="font-size: 4rem"></i>
+                    <h5>Hazır mısınız?</h5>
+                    <p class="text-muted">
+                      Sağlıklı yaşam bilginizi test etmek için quiz'e başlayın!
+                    </p>
+                    <button onclick="startQuiz()" class="btn btn-primary btn-lg">
+                      Quiz'e Başla
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h5><i class="bi bi-heart-pulse me-2"></i>Sağlıklı Yaşam</h5>
+            <p>
+              Daha sağlıklı ve kaliteli bir yaşam için doğru bilgiler, pratik
+              öneriler ve bilimsel dayanaklı içerikler sunuyoruz.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h6>Hızlı Linkler</h6>
+            <ul class="list-unstyled">
+              <li><a href="#beslenme" class="text-decoration-none">Sağlıklı Beslenme</a></li>
+              <li><a href="#egzersiz" class="text-decoration-none">Egzersiz Programları</a></li>
+              <li><a href="#mental" class="text-decoration-none">Mental Sağlık</a></li>
+              <li><a href="#quiz" class="text-decoration-none">Sağlık Quiz'i</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6>İletişim</h6>
+            <p><i class="bi bi-envelope me-2"></i>info@saglikliyasam.com</p>
+            <p><i class="bi bi-telephone me-2"></i>+90 (212) 555 0123</p>
+            <div class="mt-3">
+              <a href="#" class="me-3"><i class="bi bi-facebook fs-4"></i></a>
+              <a href="#" class="me-3"><i class="bi bi-twitter fs-4"></i></a>
+              <a href="#" class="me-3"><i class="bi bi-instagram fs-4"></i></a>
+              <a href="#"><i class="bi bi-linkedin fs-4"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="text-center">
+          <p class="mb-0">&copy; 2025 Sağlıklı Yaşam. Tüm hakları saklıdır.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Quiz Js -->
+    <script>
+      const questions = [
+        { q: "Günde kaç porsiyon meyve-sebze tüketmeliyiz?", a: ["2-3","5","7-8","10"], c: 1 },
+        { q: "Haftada kaç dakika egzersiz önerilir?", a: ["50","100","150","200"], c: 2 },
+        { q: "Günlük uyku süresi ne olmalı?", a: ["5-6 saat","6-7 saat","7-8 saat","9-10 saat"], c: 2 },
+        { q: "Günlük su tüketimi?", a: ["1L","1.5L","2-2.5L","3-4L"], c: 2 },
+        { q: "Stres azaltmaya en çok hangisi yardımcı olur?", a: ["TV izlemek","Meditasyon","Geç yatmak","Fast food"], c: 1 },
+        { q: "Hangi besinlerden kaçınmalıyız?", a: ["Meyve","İşlenmiş gıda","Kuruyemiş","Balık"], c: 1 },
+      ];
+
+      let current = 0, score = 0, userAnswers = [];
+
+      function startQuiz() {
+        current = 0; score = 0; userAnswers = [];
+        showQuestion();
+      }
+
+      function showQuestion() {
+        const q = questions[current];
+        document.getElementById("quiz-area").innerHTML = `
+          <div class="mb-4">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h6 class="text-success mb-0">Soru ${current + 1}/${questions.length}</h6>
+              <div class="progress" style="width: 200px; height: 8px;">
+                <div class="progress-bar bg-success" style="width: ${((current + 1) / questions.length) * 100}%"></div>
+              </div>
+            </div>
+            <h5 class="mb-4">${q.q}</h5>
+            <div class="d-grid gap-2">
+              ${q.a.map((option, i) => `
+                <div class="quiz-option p-3 rounded" onclick="selectAnswer(${i})">
+                  <strong>${["A","B","C","D"][i]})</strong> ${option}
+                </div>
+              `).join("")}
+            </div>
+            <div class="text-center mt-4">
+              <button id="nextBtn" onclick="nextQuestion()" class="btn btn-primary" style="display:none;">
+                ${current === questions.length - 1 ? "Sonucu Gör" : "Sonraki Soru"}
+              </button>
+            </div>
+          </div>
+        `;
+      }
+
+      function selectAnswer(i) {
+        document.querySelectorAll(".quiz-option").forEach((opt) => opt.classList.remove("selected"));
+        document.querySelectorAll(".quiz-option")[i].classList.add("selected");
+        userAnswers[current] = i;
+        document.getElementById("nextBtn").style.display = "block";
+      }
+
+      function nextQuestion() {
+        if (userAnswers[current] === questions[current].c) score++;
+        current++;
+        if (current < questions.length) showQuestion();
+        else showResult();
+      }
+
+      function showResult() {
+        const percent = Math.round((score / questions.length) * 100);
+        let msg, color;
+        if (percent >= 80) { msg = "Mükemmel! 🎉"; color = "success"; }
+        else if (percent >= 60) { msg = "İyi! 👍"; color = "info"; }
+        else if (percent >= 40) { msg = "Orta 😊"; color = "warning"; }
+        else { msg = "Geliştirilmeli 📚"; color = "danger"; }
+
+        document.getElementById("quiz-area").innerHTML = `
+          <div class="text-center">
+            <div class="alert alert-${color}">
+              <h4>${msg}</h4>
+              <h5>Puanınız: ${score}/${questions.length} (%${percent})</h5>
+            </div>
+            <button onclick="startQuiz()" class="btn btn-primary">Tekrar Dene</button>
+          </div>
+        `;
+      }
+    </script>
+    <button id="backToTop" class="back-to-top">
+  <i class="bi bi-arrow-up"></i>
+</button>
+<script>
+  const backToTopBtn = document.getElementById("backToTop");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      backToTopBtn.style.display = "flex";
+      backToTopBtn.style.alignItems = "center";
+      backToTopBtn.style.justifyContent = "center";
+    } else {
+      backToTopBtn.style.display = "none";
+    }
+  });
+
+  backToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,149 @@
+
+:root {
+  --primary-green: #28a745;
+  --light-green: #d4edda;
+  --dark-green: #155724;
+  --accent-green: #20c997;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--dark-green) !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--primary-green) !important;
+}
+
+.gradient-title {
+  background: linear-gradient(
+    45deg,
+    var(--primary-green),
+    var(--accent-green)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--light-green), #fff);
+  padding: 100px 0;
+}
+
+.feature-card {
+  transition: transform 0.3s ease;
+  border: 2px solid var(--light-green);
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(40, 167, 69, 0.2);
+}
+
+.section-header {
+  color: var(--dark-green);
+  border-bottom: 3px solid var(--primary-green);
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.quiz-section {
+  background: linear-gradient(135deg, var(--light-green), #f8f9fa);
+}
+
+.quiz-option {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid #e9ecef;
+  margin-bottom: 10px;
+}
+
+.quiz-option:hover {
+  background-color: var(--light-green);
+  border-color: var(--primary-green);
+}
+
+.quiz-option.selected {
+  background-color: var(--primary-green);
+  color: white;
+  border-color: var (--dark-green);
+}
+
+.btn-primary {
+  background-color: var(--primary-green);
+  border-color: var(--primary-green);
+}
+
+.btn-primary:hover {
+  background-color: var(--dark-green);
+  border-color: var(--dark-green);
+}
+
+.text-primary {
+  color: var(--primary-green) !important;
+}
+
+.footer {
+  background-color: white !important;
+  border-top: 2px solid var(--light-green);
+}
+
+.footer h5,
+.footer p,
+.footer a {
+  color: var(--dark-green) !important;
+}
+
+.footer a:hover {
+  color: var(--primary-green) !important;
+}
+
+.info-box {
+  background: linear-gradient(135deg, #f8f9fa, white);
+  border-left: 4px solid var(--primary-green);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.statistic-card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  z-index: 9999;
+
+  background-color: #198754; /* bootstrap success */
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.back-to-top:hover {
+  background-color: #157347;
+}
+
